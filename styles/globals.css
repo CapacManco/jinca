@@ -11,8 +11,19 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 1.2rem;
+  color: #c2c2c2;
+  margin: 0;
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  background: #36393f;
+  color: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {

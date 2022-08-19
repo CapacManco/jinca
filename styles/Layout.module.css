@@ -4,12 +4,115 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+}
+
+.main__platforms {
+  display: flex;
+  grid-gap: 1rem;
+}
+
+.main__platform__container {
+  margin-top: 1rem;
+  display: flex;
+  background-color: #ffffff;
+  height: 12rem;
+  width: 15rem;
+  border-radius: 30px;
+  cursor: pointer;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.main__platform__image {
+  border-radius: 30px;
+}
+
+.discord__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30rem;
+  margin-top: 1rem;
+
+  grid-gap: 0.5rem;
+}
+
+.discord__description__link {
+  color: #5064f6;
+  font-weight: 500;
+}
+
+.discord__description__channel {
+  color: #5064f6;
+  background-color: #2d3034;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+.discord__description__command {
+  color: #5064f6;
+}
+
+.discord__description__option,
+.discord__description__frequency {
+  color: #ca45b2;
+}
+
+.discord__description__note {
+  font-size: 1.1rem;
+  color: #aaaaaa;
+  background-color: #2d3034;
+  padding: 0.2rem 0.5rem;
+}
+
+.how {
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+}
+
+.how h2 {
+  justify-self: start;
+}
+
+.contact__link {
+  color: #5064f6;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.form__input {
+  width: 20rem;
+  height: 3rem;
+}
+
+.form__button {
+  margin: 1rem;
+  font-size: 0.9rem;
+  width: 5rem;
+  align-self: center;
+  padding: 1rem 1rem;
+  background-color: #005cc4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form__info {
+  font-size: 1.1rem;
 }
 
 .footer {
@@ -43,17 +146,6 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
 }
 
 .code {

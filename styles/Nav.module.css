@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(40, 40, 40);
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  grid-column-gap: 2rem;
+}
