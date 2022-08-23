@@ -1,8 +1,5 @@
-import Link from 'next/Link';
-import Image from 'next/image';
+import Link from 'next/link';
 import navStyles from '../styles/Nav.module.css';
-
-import discord from '../public/discord.png';
 
 const Nav = () => {
   return (
