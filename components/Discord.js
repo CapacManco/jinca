@@ -10,7 +10,7 @@ const Discord = () => {
       <p>
         <b>1.</b> Join the Discord server{' '}
         <a
-          href="https://discord.gg/TjEaD3b4WE"
+          href="https://discord.gg/THWaAvt2vU"
           className={styles.discord__description__link}
         >
           HERE
