@@ -106,10 +106,10 @@ export default function Home() {
           <p>
             Youtube :{' '}
             <a
-              href="http://www.youtube.com/thejinca"
+              href="https://www.youtube.com/channel/UC09fH0GvtBagm7oGY5wilzA"
               className={styles.contact__link}
             >
-              Jinca
+              Jinca Coding
             </a>
           </p>
           <p>
