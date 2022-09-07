@@ -5,24 +5,6 @@ import db from '../utils/firebaseConfig';
 // import { collection, addDoc, getDocs } from 'firebase/firestore';
 
 const Discord = () => {
-  // const sendInfos = async () => {
-  //   const querySnapshot = await getDocs(collection(db, 'users'));
-  //   querySnapshot.forEach((doc) => {
-  //     console.log(`${doc.id} => ${doc.data()}`);
-  //   });
-
-  //   try {
-  //     const docRef = await addDoc(collection(db, 'users'), {
-  //       platform: 'twitter',
-  //       username: 'PERUANO#3333',
-  //       time: 3,
-  //     });
-  //     console.log('Document written with ID: ', docRef.id);
-  //   } catch (e) {
-  //     console.error('Error adding document: ', e);
-  //   }
-  // };
-
   return (
     <div className={styles.discord__description}>
       <p>

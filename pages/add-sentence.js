@@ -3,7 +3,12 @@ import Head from 'next/head';
 import styles from '../styles/Layout.module.css';
 
 import db from '../utils/firebaseConfig';
-import { collection, addDoc, getDocs } from 'firebase/firestore';
+import {
+  collection,
+  addDoc,
+  getDocs,
+  serverTimestamp,
+} from 'firebase/firestore';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ quote: '', author: '' });
@@ -17,7 +22,7 @@ const Contact = () => {
       const docRef = await addDoc(collection(db, 'phrases'), {
         quote: formData.quote,
         author: formData.author,
-        date: new Date().toLocaleString(),
+        timestamp: serverTimestamp(),
       });
       setFormSent(true);
       console.log('Document written with ID: ', docRef.id);

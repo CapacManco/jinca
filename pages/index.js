@@ -66,7 +66,7 @@ export default function Home() {
         <div className={styles.how}>
           <h2>How does it work ?</h2>
           <p>
-            The confidence bot will send one random positive phrase every{' '}
+            The confidence bot will send one random positive sentence every{' '}
             <span className={styles.discord__description__frequency}>hour</span>
             ,{' '}
             <span className={styles.discord__description__frequency}>day</span>,{' '}
